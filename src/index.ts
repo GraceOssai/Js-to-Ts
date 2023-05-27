@@ -37,9 +37,6 @@ const createPetFormInput = () : HTMLDivElement => {
     addPetDiv.remove();
   });
 
-
-  // APPENDING
-
   addPetDiv.append(addPetDivContainer);
   addPetDivContainer.append(addPetDivRow);
 
